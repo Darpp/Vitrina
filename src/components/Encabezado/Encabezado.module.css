@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    gap: 16px;
+    padding: 14px 24px;
+    background-color: #FFF;
+    border-bottom: 1px var(--color-borde);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--color-primario);
+}
+
+.cuadro {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+}

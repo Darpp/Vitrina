@@ -1,0 +1,25 @@
+:root {
+    --color-primario: #4F46E5;
+    --color-primario-suave: #EEF0FF;
+    --color-acento: #FF6B3D;
+    --color-exito: #12805C;
+    --color-error: #B42318;
+    --color-texto: #1B1F2A;
+    --color-texto-suave: #667085;
+    --color-borde: #E4E7EC;
+    --color-fondo: #F5F6FA;
+    --radio: 12px;
+    --sombra: 0 6px 18px rgba(20, 30, 60, .08);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+}
